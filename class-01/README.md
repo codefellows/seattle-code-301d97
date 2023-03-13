@@ -1,5 +1,11 @@
 # React and Component-Based Architecture
 
+## In Class Takeaways
+
+- [Prework review replit](https://replit.com/@arpatterson31/Class-301d97-prework-review#index.js)
+- [forEach review replit](https://replit.com/@arpatterson31/Class-301d97-forEach#index.js)
+- [inclass Demo - People of 301](inclass-demo/)
+
 ## Overview
 
 In this class we will be covering some new topics and reviewing concepts you should already be familiar with.
