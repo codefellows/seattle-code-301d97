@@ -1,5 +1,11 @@
 # Passing Functions as Props
 
+## In class notes and takeaways
+
+- [Filter Replit](https://replit.com/@arpatterson31/Class-301d97-filter#index.js)
+- [In Class Demo](inclass-demo/src/)
+- [Whiteboard Img](whiteboard/passing-state-and-functions.png)
+
 ## Overview
 
 In the last class, you learned how to pass information from a parent component into a child component through `props`. For this class, we are going to pass functions through the `props` as well. We are also going to display a nested component using `.map` rather than hard-coding each one individually.
