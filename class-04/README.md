@@ -1,5 +1,10 @@
 # React and Forms
 
+## In class notes and takeaways
+
+- [Sort Replit](https://replit.com/@arpatterson31/Class-301d97-Sort)
+- [In Class Demo](https://github.com/codefellows/seattle-code-301d97/tree/main/class-04/inclass-demo/src)
+
 ## Overview
 
 In this class we will cover how React handles `forms` and the asynchronous nature of setting state.
