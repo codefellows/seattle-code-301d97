@@ -41,6 +41,24 @@ app.get('/hello', (request, response) => {
 });
 
 
+// *** HELPFUL START FOR YOUR LAB ***
+app.get('/weather', (request,response,next)=>{
+
+  try {
+    let lat = request.query.lat;
+    let lon = request.query.lon;
+    let searchQuery = request.query.searchQuery;
+
+    // finish this portion using the weather.json file and your class you will build...
+
+  } catch (error) {
+    console.log(error.message);
+    next(error.message);
+  }
+});
+
+
+
 app.get('/pet', (request, response, next) => {
   try {
     let queriedSpecies = request.query.species;
