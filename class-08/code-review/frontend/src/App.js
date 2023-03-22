@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-
+import Weather from './Weather';
 
 class App extends React.Component {
   constructor(props) {
@@ -36,7 +36,7 @@ class App extends React.Component {
         error: false
       });
 
-      // TODO: CALL WEATHER HANDLER 
+      // TODO: CALL WEATHER HANDLER
       let lat = cityDataFromAxios.data[0].lat;
       let lon = cityDataFromAxios.data[0].lon;
 
@@ -96,6 +96,8 @@ class App extends React.Component {
               <p>{this.state.cityData.display_name}</p>
               <p>Lat: {this.state.cityData.lat}</p>
               <p>Lon: {this.state.cityData.lon}</p>
+
+              <Weather weatherData={this.state.weatherData} />
             </>
         }
 
